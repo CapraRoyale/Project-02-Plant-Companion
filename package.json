@@ -1,0 +1,41 @@
+{
+  "name": "02-project-plant-companion",
+  "version": "1.0.0",
+  "description": "A simple, web-based, companion-planting app that allows users to easily query helpful pairings for the plants they want to grow. Plant Companion utilizes MySql for it's database, Node.JS for it's runtime, Sequelize for queries, Express for routing, Handlebars for server-side templating, Bootstrap for styling and Heroku for deployment.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CapraRoyale/Project-02-Plant-Companion.git"
+  },
+  "keywords": [
+    "Node.js",
+    "MySQL",
+    "Sequelize",
+    "companion",
+    "planting",
+    "plants",
+    "garden",
+    "gardening",
+    "resource",
+    "reference",
+    "indoor",
+    "outdoor",
+    "crop",
+    "food",
+    "Bootstrap",
+    "Heroku",
+    "handlebars"
+  ],
+  "author": "Siege Lehman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CapraRoyale/Project-02-Plant-Companion/issues"
+  },
+  "homepage": "https://github.com/CapraRoyale/Project-02-Plant-Companion#readme",
+  "dependencies": {
+    "dotenv": "^8.1.0"
+  }
+}
