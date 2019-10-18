@@ -8,7 +8,7 @@ module.exports = (sequelize, DataTypes) => {
     }, {});
     good_comp.associate = function(models) {
         // associations can be defined here
-        bad_comp.belongsTo(models.plant);
+        good_comp.belongsTo(models.plant);
     };
     return good_comp;
 };
