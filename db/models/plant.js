@@ -7,6 +7,8 @@ module.exports = (sequelize, DataTypes) => {
     }, {});
     plant.associate = function(models) {
         // associations can be defined here
+        plant.hasMany(models.good_comp);
+        plant.hasMany(models.bad_comp);
     };
     return plant;
 };
