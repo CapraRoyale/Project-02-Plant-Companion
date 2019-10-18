@@ -11,7 +11,20 @@
     "express": "~4.16.1",
     "hbs": "~4.0.4",
     "http-errors": "~1.6.3",
-    "morgan": "~1.9.1",
-    "sequelize": "^5.19.2"
-  }
+    "morgan": "~1.9.1"
+  },
+  "main": "app.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CapraRoyale/Project-02-Plant-Companion.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CapraRoyale/Project-02-Plant-Companion/issues"
+  },
+  "homepage": "https://github.com/CapraRoyale/Project-02-Plant-Companion#readme",
+  "description": ""
 }
