@@ -1,4 +1,5 @@
 'use strict';
+var Sequelize = require('sequelize');
 module.exports = (sequelize, DataTypes) => {
     const bad_comp = sequelize.define('bad_comp', {
         hinderer: DataTypes.INTEGER,
