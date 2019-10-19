@@ -36,5 +36,3 @@ db.sequelize = sequelize;
 db.Sequelize = Sequelize;
 
 module.exports = db;
-
-// db.plant.findAll().then(pl => console.log(pl));
