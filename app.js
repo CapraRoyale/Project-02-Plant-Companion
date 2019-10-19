@@ -16,7 +16,8 @@ var app = express();
 app.set('view engine', 'hbs');
 app.set('views', __dirname + '/views');
 app.engine('hbs', hbs.express4({
-    partialsDir: __dirname + '/views/partials'
+    partialsDir: __dirname + '/views/partials',
+    defaultLayout: __dirname + '/views/layout'
 }));
 
 app.use(logger('dev'));
