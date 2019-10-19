@@ -1,2 +1,11 @@
-<h1>{{{id}}} - {{{name}}}</h1>
-<p>{{{desc}}}</p>
+<div class="col-2">
+    <div class="card">
+        <img src="https://via.placeholder.com/100x50.png/000000/ffffff?text={{name}}" class="card-img-top" alt="{{name}}">
+        <div class="card-body">
+            <h5 class="card-title">{{id}} - {{name}}</h5>
+            <p class="card-text">{{desc}}</p>
+            <a href="/plants/{{id}}" class="btn btn-primary">Select</a>
+            <a href="/edit/{{id}}" class="btn btn-primary">Edit</a>
+        </div>
+    </div>
+</div>

@@ -15,9 +15,12 @@ router.get('/:id', function(req, res, next) {
                 id: req.params.id
             }
         })
-        .then(pl => res.render('plants', {
-            plant: pl
-        }));
+        .then(pl => {
+            console.log([pl]);
+            res.render('plants', {
+                plant: [pl]
+            })
+        });
 });
 
 module.exports = router;
