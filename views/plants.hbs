@@ -1,7 +1,13 @@
 <div class="container">
     <div class="row">
-        {{#each plant}}
-        {{> plant}}
-        {{/each}}
+        {{#if edit}}
+            {{#each plant}}
+                {{> edit}}
+            {{/each}}
+        {{else}}
+            {{#each plant}}
+                {{> plant}}
+            {{/each}}
+        {{/if}}
     </div>
 </div>

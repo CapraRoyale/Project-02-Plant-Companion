@@ -1,0 +1,15 @@
+<div class="col-2">
+    <div class="card">
+        <img src="https://via.placeholder.com/100x50.png/000000/ffffff?text={{name}}" class="card-img-top"
+            alt="{{name}}">
+        <div class="card-body">
+            <div class="form-group">
+                <form action="/plants/{{id}}/submit" method="post"></form>
+                <textarea name="id" id="{{id}}" cols="10" rows="1" placeholder="{{id}}"></textarea>
+                <textarea name="name" id="{{name}}" cols="30" rows="1" placeholder="{{name}}"></textarea>
+                <textarea name="description" id="{{desc}}" cols="30" rows="10" placeholder="{{desc}}"></textarea>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+        </div>
+    </div>
+</div>
