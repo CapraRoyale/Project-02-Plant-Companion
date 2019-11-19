@@ -3,7 +3,8 @@ var Sequelize = require('sequelize');
 module.exports = (sequelize, DataTypes) => {
     const plant = sequelize.define('plant', {
         name: DataTypes.STRING,
-        desc: DataTypes.STRING
+        desc: DataTypes.STRING,
+        misc: DataTypes.STRING
     }, {});
     plant.associate = function(models) {
         // associations can be defined here
